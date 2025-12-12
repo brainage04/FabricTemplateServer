@@ -11,7 +11,11 @@ base {
 }
 
 repositories {
-
+	// Loom / Minecraft / Fabric
+	mavenCentral()
+	mavenLocal()
+	maven { url "https://libraries.minecraft.net" }
+	maven { url "https://maven.fabricmc.net/" }
 }
 
 dependencies {
